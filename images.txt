@@ -13,4 +13,5 @@
 #nacos/nacos-server
 #--platform=linux/arm64 bitnami/mysql:5.7
 #nacos/nacos-server:v2.2.3
-httpd
+#httpd
+--platform=linux/arm64 httpd
