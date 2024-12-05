@@ -5,12 +5,15 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-mysql
-nginx
-redis
-mysql:5.7
-nacos/nacos-server
---platform=linux/arm64 bitnami/mysql:5.7
-nacos/nacos-server:v2.2.3
-httpd
---platform=linux/arm64 httpd
+#mysql
+#nginx
+#redis
+#mysql:5.7
+#nacos/nacos-server
+#--platform=linux/arm64 bitnami/mysql:5.7
+#nacos/nacos-server:v2.2.3
+#httpd
+#--platform=linux/arm64 httpd
+
+openjdk:8-jre
+
