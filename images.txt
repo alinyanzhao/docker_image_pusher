@@ -8,11 +8,10 @@
 mysql
 nginx
 redis
---platform=linux/arm64 mysql:5.7
 mysql:5.7
 nacos/nacos-server
---platform=linux/arm64 bitnami/mysql:5.7
 nacos/nacos-server:v2.2.3
+--platform=linux/arm64 bitnami/mysql:5.7
 httpd
 --platform=linux/arm64 httpd
 openjdk:8-jre
