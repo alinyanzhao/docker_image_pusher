@@ -17,4 +17,5 @@ httpd
 openjdk:8-jre
 rabbitmq:management
 --platform=linux/arm64 rabbitmq:management
+keking/kkfileview:v2.2.2.1
 
