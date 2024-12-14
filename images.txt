@@ -20,4 +20,5 @@ rabbitmq:management
 keking/kkfileview:v2.2.2.1
 
 minio/minio:latest
+ghcr.io/open-webui/open-webui:main
 
