@@ -24,3 +24,5 @@ rabbitmq:management
 minio/minio:latest
 ghcr.io/open-webui/open-webui:main
 
+redis
+--platform=linux/arm64 redis
