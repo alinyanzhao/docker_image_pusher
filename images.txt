@@ -9,13 +9,17 @@ mysql
 mysql:5.7
 --platform=linux/arm64 mysql
 --platform=linux/arm64 bitnami/mysql:5.7
+
 nginx
 redis
+--platform=linux/arm64 redis
 nacos/nacos-server
 nacos/nacos-server:v2.2.3
+openjdk:8-jre
+
 httpd
 --platform=linux/arm64 httpd
-openjdk:8-jre
+
 rabbitmq:management
 --platform=linux/arm64 rabbitmq:management
 #keking/kkfileview:v2.2.2.1
@@ -23,6 +27,4 @@ rabbitmq:management
 minio/minio:latest
 ghcr.io/open-webui/open-webui:main
 
-redis
---platform=linux/arm64 redis
 heartexlabs/label-studio:latest
