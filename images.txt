@@ -27,3 +27,5 @@ minio/minio:latest
 ghcr.io/open-webui/open-webui:main
 
 heartexlabs/label-studio:latest
+
+-- build 20250828
