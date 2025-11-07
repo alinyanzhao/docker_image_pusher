@@ -15,7 +15,7 @@ redis
 # platform=linux/arm64 redis
 nacos/nacos-server
 nacos/nacos-server:v2.2.3
-openjdk:8-jre
+# openjdk:8-jre
 
 httpd
 # platform=linux/arm64 httpd
