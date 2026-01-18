@@ -4,7 +4,7 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-
+oracleinanutshell/oracle-xe-11g
 mysql
 mysql:5.7
 # platform=linux/arm64 mysql
@@ -23,7 +23,8 @@ httpd
 rabbitmq:management
 # platform=linux/arm64 rabbitmq:management
 
-minio/minio:latest
+#minio/minio:latest
 # ghcr.io/open-webui/open-webui:main
 
 # heartexlabs/label-studio:latest
+
